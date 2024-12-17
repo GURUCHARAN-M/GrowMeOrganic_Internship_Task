@@ -1,0 +1,13 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    "target": "esnext",  // or "es6"
+    "module": "esnext",  // or "commonjs"
+    "lib": ["dom", "esnext"],
+    "jsx": "react-jsx"  // if using React 17 or higher
+  }
+}
